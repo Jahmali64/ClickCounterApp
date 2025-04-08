@@ -36,7 +36,7 @@ export default function MainLayout() {
                     <List>
                         {
                             menuItems.map((item: MenuItem): JSX.Element => (
-                                <ListItem disablePadding>
+                                <ListItem disablePadding key={item.path}>
                                     <ListItemButton component={Link} to={item.path}>
                                         <ListItemText primary={item.name}/>
                                     </ListItemButton>

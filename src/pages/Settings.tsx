@@ -1,4 +1,11 @@
-﻿// src/pages/Settings.tsx
+﻿import ContentLayout from "../components/ContentLayout.tsx";
+
 export default function Settings() {
-    return <h2>Settings</h2>;
+    return (
+        <ContentLayout title="Settings">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cupiditate ducimus expedita incidunt?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cupiditate ducimus expedita
+                incidunt</p>
+        </ContentLayout>
+    );
 }
